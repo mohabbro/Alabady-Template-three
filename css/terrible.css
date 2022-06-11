@@ -758,6 +758,14 @@ a {
   width: calc(100% - -10px);
   border-radius: 6px;
 }
+@media (max-width: 768px) {
+  .teammembers .container .box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+}
 .teammembers .container .box::before {
   content: "";
   position: absolute;
@@ -790,6 +798,15 @@ a {
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
 }
+@media (max-width: 768px) {
+  .teammembers .container .box .image {
+    top: 38%;
+    left: 0%;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+  }
+}
 .teammembers .container .box:hover .image {
   filter: grayscale(100%);
   -webkit-filter: grayscale(70%);
@@ -804,6 +821,16 @@ a {
   top: 50%;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .teammembers .container .box .vabrotion {
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 50%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .teammembers .container .box .vabrotion i {
   color: #777;
