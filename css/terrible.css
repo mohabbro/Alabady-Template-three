@@ -826,11 +826,12 @@ a {
 @media (max-width: 768px) {
   .teammembers .container .box .vabrotion {
     transform: translate(-50%, -50%);
-    top: 75%;
+    top: 80%;
     left: 50%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: absolute;
   }
 }
 .teammembers .container .box .vabrotion i {
