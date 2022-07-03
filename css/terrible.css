@@ -1496,12 +1496,13 @@ a {
 /* End TOP VIDEOS */
 /* Start Our Awesome Stats  */
 .Awesome {
-  padding-top: var(--maim-padding-top);
-  padding-bottom: var(--maim-padding-bottom);
-  position: relative;
-  background-image: url(/image/Stats/Stats.jpeg);
-  background-size: cover;
-  z-index: 1;
+    padding-top: var(--maim-padding-top);
+    padding-bottom: var(--maim-padding-bottom);
+    position: relative;
+    background-image: url(https://img.freepik.com/free-vector/shining-circle-purple-lighting-isolated-dark-background_1441-2396.jpg?w=2000);
+    background-size: cover;
+    z-index: 1;
+    background-position: center;
 }
 .Awesome::before {
   content: "";
